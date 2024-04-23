@@ -14,7 +14,7 @@ This project is a Flutter-based chatbot application that integrates with Google 
 
 To get started with the project, follow these steps:
 
-1. **Clone the Repository**: Clone this repository to your local machine using `git clone https://github.com/your-username/flutter-chatbot.git`.
+1. **Clone the Repository**: Clone this repository to your local machine using `git clone https://github.com/engrshahzaibabid/flutter-gemini.git`.
 
 2. **Install Dependencies**: Navigate to the project directory and run `flutter pub get` to install all the required dependencies.
 

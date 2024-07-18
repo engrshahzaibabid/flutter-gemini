@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gemini/src/constants/colors.dart';
 import 'package:flutter_gemini/src/features/chat/components/message_tile.dart';
-import 'package:flutter_gemini/src/features/chat/components/send_message_widget.dart';
+
 import 'package:google_generative_ai/google_generative_ai.dart';
 
 class ChatScreen extends StatefulWidget {
@@ -21,7 +21,7 @@ class _ChatScreenState extends State<ChatScreen> {
   final TextEditingController _textController = TextEditingController();
   final FocusNode _textFieldFocus = FocusNode();
   bool _loading = false;
-  static const _apiKey = 'YOUR_API_KEY_HERE'; // https://ai.google.dev/ (Get API key from this link)
+  static const _apiKey = 'AIzaSyCgBKBL9jTElZPUrhGPvPOqPHSuYYWTADI'; // https://ai.google.dev/ (Get API key from this link)
 
   void _scrollDown() {
     WidgetsBinding.instance.addPostFrameCallback(
